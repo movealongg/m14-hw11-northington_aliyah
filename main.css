@@ -1,3 +1,8 @@
+html{
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+}
+
 body{
 	background-image: url(img/hsv.jpg);
 	width: 100%;
@@ -6,4 +11,8 @@ body{
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
+}
+
+h1{
+	text-align: center;
 }
