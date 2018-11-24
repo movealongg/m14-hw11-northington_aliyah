@@ -19,7 +19,7 @@ body{
 
 .Site {
 	display: flex;
-	min-height: 98vh;
+	min-height: 90vh;
 	flex-direction: column;
 }
 
@@ -33,4 +33,10 @@ footer{
 
 .transparent-bg{
 	background: rgba(255, 255, 255, 0.5);
+	margin: 30px;
+}
+
+main p{
+	padding: 40px 0;
+	font-size: 1.4rem;
 }
