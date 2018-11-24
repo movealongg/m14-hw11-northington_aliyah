@@ -26,3 +26,11 @@ body{
 .Site-content {
 	flex: 1;
 }
+
+footer{
+	font-size: 1.3rem;
+}
+
+.transparent-bg{
+	background: rgba(255, 255, 255, 0.5);
+}
