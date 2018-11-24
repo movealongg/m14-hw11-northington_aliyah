@@ -1,9 +1,6 @@
 html{
 	font-family: 'Nunito', sans-serif;
 	font-size: 16px;
-}
-
-body{
 	background-image: url(img/hsv.jpg);
 	width: 100%;
 	height: 90vh;
@@ -13,6 +10,19 @@ body{
 	background-attachment: fixed;
 }
 
-h1{
+body{
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.Site {
+	display: flex;
+	min-height: 98vh;
+	flex-direction: column;
+}
+
+.Site-content {
+	flex: 1;
 }
