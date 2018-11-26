@@ -44,6 +44,6 @@ let forecast ={
 var weatherWrapper = document.getElementById(
 'weather');
 
-let currentWeather = document.createTextNode(forecast[1].description);
+let currentWeather = document.createTextNode(forecast.weather[0].description);
 
 weatherWrapper.appendChild(currentWeather);
